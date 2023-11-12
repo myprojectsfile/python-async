@@ -1,0 +1,27 @@
+Activate And Install :
+
+    python -m venv venv  # Create virtual environment (if not already created)
+    venv\Scripts\activate  # Activate virtual environment on Windows
+
+    pip install -r requirements.txt  # Install dependencies from the requirements file
+
+Create New environment :
+    python -m venv venv
+
+Activate environment :
+    venv\Scripts\activate
+
+Deactivate environment :
+    deactivate
+
+.gitignore content :
+
+# .gitignore
+venv/
+__pycache__/
+
+Freeze Installed Dependencies
+    pip freeze > requirements.txt
+
+
+
